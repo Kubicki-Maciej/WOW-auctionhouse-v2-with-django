@@ -6,4 +6,4 @@ with open('login.json', 'r') as file:
 CLIENT_ID = data['client_id']
 CLIENT_SECRET = data['client_secret']
 
-print(CLIENT_ID, CLIENT_SECRET)
+print('CLIENT_ID, CLIENT_SECRET loaded')
