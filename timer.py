@@ -17,7 +17,6 @@ class Timer:
             print("Timer started...")
 
     def timer_stop(self):
-        """Zakończ pomiar czasu i pokaż różnicę"""
         if DEBUG:
             if self.start_time is None:
                 print("Timer has not been started yet.")

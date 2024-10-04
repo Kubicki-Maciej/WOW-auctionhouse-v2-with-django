@@ -38,9 +38,3 @@ def get_auction_commodities_data(region='eu'):
         print(f"Error fetching data: {response.status_code}")
         return None
 
-# Example usage
-# auction_data = get_auction_data('1084','eu')
-
-# print('wait')
-
-# [{'numer': 1312268659, 'item': {'id': 1951, 'context': 1, 'bonus_lists': [...], 'modifiers': [...]}, 'buyout': 4440000, 'quantity': 1, 'time_left': 'LONG'},{'numer': 1312268659, 'item': {'id': 1951, 'context': 1, 'bonus_lists': [...], 'modifiers': [...]}, 'buyout': 4440000, 'quantity': 1, 'time_left': 'LONG'},{'numer': 1312268659, 'item': {'id': 1951, 'context': 1, 'bonus_lists': [...], 'modifiers': [...]}, 'buyout': 4440000, 'quantity': 1, 'time_left': 'LONG'}
